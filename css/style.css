@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 body{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: "Open Sans", sans-serif;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;  
+    flex-direction: row;
     margin: 0px 40px;
 } 
 
@@ -160,6 +164,99 @@ body{
 
 /*  hero section  */
 
+
+/* category*/
+
+.container{
+    margin: 50px 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+.category-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.arrows>img{
+    width: 30px;
+}
+.category-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.category-card>img{
+    width: 200px;
+    border-radius: 12px;
+}
+.category-card>p{
+    font-size: 20px;
+}
+.category-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* category end*/
+
+/* banner*/
+
+.banner{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin: 50px 40px;
+}
+
+
+
+.vegetables, .strawberries{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right-veg>h3,.right-stra >h3{
+    font-size: 30px;
+    color: rgb(116, 18, 37);
+}
+
+.right-veg>a, .right-stra>a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 110px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.right-veg>a{
+    background-color: rgb(124, 68, 68);
+    color: aliceblue;
+}
+
+.right-stra>a{
+    background-color: rgb(241, 17, 36);
+    color: aliceblue;
+}
+
+.cart{
+    width: 20px;
+}
+
+.left{
+    width: 400px;
+}
+
+/* banner end*/
 
 
 
